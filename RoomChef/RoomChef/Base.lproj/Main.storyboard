@@ -35,7 +35,7 @@
         <!--Item-->
         <scene sceneID="z7x-og-yh9">
             <objects>
-                <viewController id="B5W-Jg-raO" sceneMemberID="viewController">
+                <viewController id="B5W-Jg-raO" customClass="FridgeViewController" customModule="RoomChef" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3yj-if-2fM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,6 +52,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
+                                    <action selector="test2:" destination="B5W-Jg-raO" eventType="touchUpInside" id="30v-O6-qJy"/>
                                     <segue destination="Ejj-hh-lcO" kind="show" id="4LZ-4J-PpK"/>
                                 </connections>
                             </button>
