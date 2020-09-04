@@ -60,7 +60,7 @@
         <!--Item-->
         <scene sceneID="6J5-0H-6Gx">
             <objects>
-                <viewController id="8ZO-wz-KLO" sceneMemberID="viewController">
+                <viewController id="8ZO-wz-KLO" customClass="RecipeViewController" customModule="RoomChef" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s2R-F9-dR7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,6 +72,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZ8-yd-RAI">
+                                <rect key="frame" x="184" y="486" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="test:" destination="8ZO-wz-KLO" eventType="touchUpInside" id="L8w-h2-uTb"/>
+                                    <segue destination="Wwp-n4-aaN" kind="show" id="m8u-Ok-MI2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="1J7-ry-rPz"/>
@@ -82,12 +91,29 @@
             </objects>
             <point key="canvasLocation" x="2819" y="56"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="ZUE-Or-p8A">
+            <objects>
+                <viewController id="Wwp-n4-aaN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U43-HR-J7u">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ggB-7m-1B6"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lvP-sc-rgk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JOf-Vr-cpn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3705" y="54"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Hbi-pR-Uh8">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="afx-Jt-GHK" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Qhl-l6-apU">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
