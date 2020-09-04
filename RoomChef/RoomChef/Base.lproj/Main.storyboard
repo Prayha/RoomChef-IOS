@@ -35,7 +35,7 @@
         <!--Item-->
         <scene sceneID="z7x-og-yh9">
             <objects>
-                <viewController id="B5W-Jg-raO" sceneMemberID="viewController">
+                <viewController id="B5W-Jg-raO" customClass="FridgeViewController" customModule="RoomChef" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3yj-if-2fM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -47,6 +47,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbJ-U1-Sjz">
+                                <rect key="frame" x="186" y="490" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="test2:" destination="B5W-Jg-raO" eventType="touchUpInside" id="30v-O6-qJy"/>
+                                    <segue destination="Ejj-hh-lcO" kind="show" id="4LZ-4J-PpK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="sqX-nJ-xE2"/>
@@ -56,6 +65,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EUk-bU-pPe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2819" y="780"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cCp-6d-DIn">
+            <objects>
+                <viewController id="Ejj-hh-lcO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fbb-2P-uBE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="kkh-tf-Pml"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DYx-Hq-DM1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yyf-Ua-YRz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3841" y="779"/>
         </scene>
         <!--Item-->
         <scene sceneID="6J5-0H-6Gx">
@@ -88,6 +113,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="afx-Jt-GHK" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Qhl-l6-apU">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
