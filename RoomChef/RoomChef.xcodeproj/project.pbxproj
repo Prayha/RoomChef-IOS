@@ -15,6 +15,7 @@
 		CD3D9859250217F5009C360E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3D9857250217F5009C360E /* LaunchScreen.storyboard */; };
 		CD3D9868250219C5009C360E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3D9867250219C5009C360E /* WebKit.framework */; };
 		CD3D986C25022298009C360E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3D986B25022298009C360E /* HomeViewController.swift */; };
+		CD3D9870250238DF009C360E /* FridgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3D986F250238DF009C360E /* FridgeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CD3D985A250217F5009C360E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD3D9867250219C5009C360E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		CD3D986B25022298009C360E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CD3D986F250238DF009C360E /* FridgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				CD3D986B25022298009C360E /* HomeViewController.swift */,
+				CD3D986F250238DF009C360E /* FridgeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				CD3D986C25022298009C360E /* HomeViewController.swift in Sources */,
 				CD3D9854250217EA009C360E /* RoomChef.xcdatamodeld in Sources */,
+				CD3D9870250238DF009C360E /* FridgeViewController.swift in Sources */,
 				CD3D984A250217EA009C360E /* AppDelegate.swift in Sources */,
 				CD3D984C250217EA009C360E /* SceneDelegate.swift in Sources */,
 			);
